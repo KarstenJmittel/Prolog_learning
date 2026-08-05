@@ -1,0 +1,6 @@
+likes(me, pizza).
+likes(nee, pizza).
+
+friend(X, Y) :-
+    likes(X, pizza),
+    likes(Y, pizza).
